@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item5Activity">
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="423dp"
+        android:text="\nEnjoy the flavors of West Africa with this Senegalese Poulet Yassa made from Chicken pieces, marinated overnight with lots of onions, some mustard, and a bit of lemon juice.This dish is so easy to make, smells great, looks beautiful, and tastes delicious. If you are in the mood for an exotic dish try this one!) "
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Ingredients:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Intro" />
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/_1_cup_water_n_2_bay_leaves_n_teaspoon_ginger_n_2_onions_each_sliced_inch_thick_n_4_cloves_garlic_minced_n_5_tablespoons_oil_preferably_peanut_n_1_whole_chicken_cut_into_8_pieces_n_1_tablespoon_white_wine_vinegar_n_3_tablespoons_dijon_mustard_n_cup_green_olives_pitted_and_sliced_n_2_chicken_bouillon_cubes_dissolved_in_1_cup_of_water_n_2_habanero_peppers_seeded_and_sliced_very_thinly_wear_gloves_n_1_teaspoon_pepper_cup_fresh_lemon_juice_and_1_sliced_lemon_n"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Instruction: \n http://edibledc.com/recipes/yes-to-yassa-poulet"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients"
+        android:autoLink="web"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

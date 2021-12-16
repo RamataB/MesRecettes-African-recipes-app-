@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item3Activity">
+
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="423dp"
+        android:text="\nEgusi Soup is a common stew in many African countries, in Nigeria, this soup is enjoyed almost every day. It is made from ground melon seed and can be served with any type of FuFu (pounded yam, Gari ….) "
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Ingredients:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Intro" />
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/_1_cup_ground_egusi_n_cup_palm_oil_n_150_g_chicken_optional_n_2_onions_sliced_n_2_cloves_garlic_chopped_n_tsp_thyme_leaves_n_1_tsp_curry_powder_n_1_bouillon_cube_or_maggi_n_1_large_tomato_mashed_or_blended_n_1_tsp_tomato_paste_n_tsp_chili_powder_n_water_n_salt_to_taste_n_dried_fish_smoked_fish_or_stockfish_to_taste_n_200g_beef_or_goat_meat_chopped_into_small_size_n_1_tbsp_ground_crayfish_or_ground_dried_shrimp_n_fresh_pepper_with_or_substituted_for_grounded_dried_pepper_n_spinach_leaves_pumpkin_or_bitter_leaf_or_any_leaf_n"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Instructions: \n https://cookpad.com/uk/recipes/6838113-melon-egusi-soup"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients"
+        android:autoLink="web"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

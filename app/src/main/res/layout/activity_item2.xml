@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item2Activity">
+
+
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="423dp"
+        android:text="@string/nseafood_okra_soup_is_one_out_of_many_okra_soup_recipes_okra_as_a_vegetable_is_one_of_the_most_versatile_pods_in_african_cuisine"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:gravity="center"
+        android:text="Ingredients:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Intro" />
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/_20_large_okra_pods_n_2_cups_or_200gr_green_vegetable_spinach_ugwu_fluted_pumpkin_leaves_kale_or_shoko_n_2_large_red_bell_peppers_n_2_scotch_bonnet_peppers_n_1_onions_n_1_teaspoon_cameroon_pepper_optional_n_dried_fish_n_fresh_large_prawns_shrimps_n_fresh_fish_mackerel_n_1_cooking_spoonful_half_cup_palm_oil_palm_oil_n_1_handful_half_cup_locust_bean_iru_ogiri_optional_n_half_cup_crayfish_ground_n_seasoning_powder_or_cubes_to_taste_n_salt_to_taste_n_stockfish_n_note_this_seafood_okra_soup_is_quite_simple_and_contains_a_few_kinds_of_seafood_but_feel_free_to_add_any_other_seafood_of_your_choice_such_as_crabs_lobster_squid_calamari_and_periwinkles"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Instructions:\n https://www.nigerianfoodtv.com/sea-food-okra-soup-okro-soup-gumbo/"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients"
+        android:autoLink="web"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

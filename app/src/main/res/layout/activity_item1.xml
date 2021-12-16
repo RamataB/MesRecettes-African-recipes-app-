@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item1Activity">
+
+    <TextView
+        android:id="@+id/Intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="423dp"
+        android:text="@string/nthieboudienne_ceebu_jen_is_the_senegalese_rice_and_fish_it_is_also_known_as_riz_gras_in_cote_d_ivoire_burkina_faso_guinea_and_other_countries_in_west_africa_nin_nigeria_and_ghana_a_similar_recipe_is_called_jollof_rice_the_recipe_is_made_from_rice_fish_tomato_sauce_and_other_vegetables"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:gravity="center"
+        android:text="Ingredients:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Intro" />
+
+    <TextView
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/_4_cups_of_rice_n_2_3_fishes_of_your_choice_salmon_or_red_snapper_n_4_fresh_tomatoes_mashed_n_3_tablespoons_of_tomato_paste_n_1_bunch_parsley_crushed_n_1_large_carrot_peeled_and_chopped_medium_n_2_potatoes_peeled_and_chopped_n_1_large_onion_chopped_n_4_cloves_garlic_finely_chopped_n_2_eggplants_peeled_n_1_cabbage_cut_into_4_pieces_n_200_ml_peanut_oil_n_2_bouillon_cubes_or_maggi_cubes_n_4_bay_leaves_n_4_hot_peppers_n_1_tablespoon_black_pepperv_salt_n_4_okras_n_1_tablespoon_y_t_optional_n_1_tablespoons_n_t_tou_if_available_n_1_5l_hot_water_n"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Instructions:\n http://www.kadiafricanrecipes.com/thieboudienn.html"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients"
+       android:autoLink="web"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
